@@ -29,7 +29,7 @@ def mock_upload_movie():
 def test_home_page():
     response = client.get("/")
     assert response.status_code == 200
-    assert "Movies Search" in response.text
+    assert "Hollywood Movie Database" in response.text
 
 
 # ✅ 2. Test Movie Search (Valid Year)
