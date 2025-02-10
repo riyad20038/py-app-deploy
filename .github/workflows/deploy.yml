@@ -5,6 +5,8 @@ on:
       - Unit Tests
     types:
       - completed
+    conclusions:
+      - success
 
 jobs:
   deploy:
